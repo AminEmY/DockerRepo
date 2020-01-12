@@ -4,4 +4,4 @@ services :
 before_install :
     - docker build -t myteravis/dockertera -f Dockerfile.dev .
 scripts : 
-    - docker run myteravis/dockertera npm run test -- --Coverage
+    - docker run myteravis/dockertera npm run test -- --coverage
